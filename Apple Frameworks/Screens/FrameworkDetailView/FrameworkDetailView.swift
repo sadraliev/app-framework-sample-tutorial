@@ -15,8 +15,6 @@ struct FrameworkDetailView: View {
     var body: some View {
         VStack {
             
-            XDismissButton(isShowingDetailView: $isShowingDetailView)
-            
             Spacer()
             
             FrameworkTitleView(framework: framework)
@@ -33,9 +31,10 @@ struct FrameworkDetailView: View {
                 AFButton(title: "Learn more")
             }
         }
-        .sheet(isPresented: $isShowingSafariView, content: {
+        .fullScreenCover(isPresented: $isShowingSafariView, content: {
             SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
         })
+        
     }
 }
 

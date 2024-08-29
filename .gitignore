@@ -1,0 +1,88 @@
+ta/
+.idea/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcworkspace
+*.xcassets
+*.DS_Store
+
+# SwiftPM
+# =================================================================
+.build/
+.swiftpm/xcode
+
+# Carthage
+# =================================================================
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/Packages/
+
+# Cocoapods
+# =================================================================
+Pods/
+Podfile.lock
+
+# fastlane
+# =================================================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.lock
+
+# Temporary files
+# =================================================================
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+*.old
+*.swp
+*.swo
+*.sass-cache/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+
+# Xcode Automatically Generated Files
+# =================================================================
+*.plist
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Documentation
+# =================================================================
+.docc/
+
+# Simulator-generated files
+# =================================================================
+*.log
+
+# macOS
+# =================================================================
+*.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+UserInterfaceState.xcuserstate
+
+# Xcode Server
+# =================================================================
+*.xcscmblueprint
+*.xcscheme
+
+# Others
+# =================================================================
+*.env
+!/.env.example
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.env
+.env.*
+
